@@ -1,6 +1,17 @@
 const express = require('express');
+
+//initilizations
 const app = express();
 
+//settings
+app.set('port',process.env.PORT || 3000);
+
+//Server is listenning
+app.listen(app.get('port'), () => {
+  console.log('Server on port', app.get('port'));
+})
+
+//Routes
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
@@ -9,6 +20,3 @@ app.get('/hello', (req, res) => {
     res.send('Hello World!');
   });
 
-app.listen(3000, () => {
-  console.log('Example app listening on port 3000!');
-});
