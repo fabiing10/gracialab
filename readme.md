@@ -3,7 +3,7 @@
 
 ## Installation
 
-use node 
+use node <br/>
 run "npm install"
 
 ## Usage
@@ -12,10 +12,10 @@ run "npm start
 
 ## Contributing
 
-Gracialab
+Gracialab <br/>
 
-Santiago
-Nicolas
+Santiago <br/>
+Nicolas <br/>
 Juan Pablo
 
 ## License
