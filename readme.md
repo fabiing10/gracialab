@@ -1,21 +1,13 @@
-# Foobar
+Foobar
+Installation
+use node run "npm install"
 
+Usage
+run "npm start"
 
-## Installation
-
-use node 
-run "npm install"
-
-## Usage
-
-run "npm start
-
-## Contributing
-
+Contributing
 Gracialab
 
-Santiago
-Nicolas
-Juan Pablo
+Santiago Nicolas Juan Pablo
 
-## License
+License
